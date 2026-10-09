@@ -56,6 +56,16 @@ img { display: block; max-width: 100%; }
 .contact-link img { width: 100%; }
 .contact-link:hover { filter: brightness(1.22); }
 
+@media (min-width: 1440px) {
+  .pcb-shell {
+    transform: translateX(2.4%);
+  }
+
+  .portfolio-board {
+    overflow-x: clip;
+  }
+}
+
 @media (min-width: 800px) and (max-width: 1439px) {
   .pcb-shell { width: min(calc(100% - 34px), 928px); }
   .pcb-art img { aspect-ratio: 800 / 1208; }
