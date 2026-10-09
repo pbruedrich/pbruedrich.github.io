@@ -58,7 +58,7 @@ img { display: block; max-width: 100%; }
 
 @media (min-width: 1440px) {
   .pcb-shell {
-    transform: translateX(2.4%);
+    transform: translateX(4.4%);
   }
 
   .portfolio-board {
