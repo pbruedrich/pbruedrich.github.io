@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paula Engineering Portfolio</title>
+    <meta
+      name="description"
+      content="Engineering portfolio homepage built as an interactive PCB map."
+    >
+    <link rel="icon" href="data:,">
+    <link rel="preload" href="assets/pcb/PCB_desktop.svg" as="image" media="(min-width: 1440px)">
+    <link rel="preload" href="assets/pcb/PCB_tablet.svg" as="image" media="(min-width: 800px) and (max-width: 1439px)">
+    <link rel="preload" href="assets/pcb/PCB_mobile.svg" as="image" media="(max-width: 799px)">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <main class="portfolio-board" aria-labelledby="page-title">
+      <h1 id="page-title" class="sr-only">Paula Engineering Portfolio</h1>
+
+      <section class="pcb-shell" aria-label="Interactive engineering portfolio PCB">
+        <picture class="pcb-art" aria-hidden="true">
+          <source srcset="assets/pcb/PCB_desktop.svg" media="(min-width: 1440px)">
+          <source srcset="assets/pcb/PCB_tablet.svg" media="(min-width: 800px)">
+          <img src="assets/pcb/PCB_mobile.svg" alt="">
+        </picture>
+
+        <a
+          class="project-card project-card--welding"
+          href="project_pages/welding_robotics.html"
+          aria-label="View Welding Robotics project"
+          style="
+            --x-desktop: 32.31%; --y-desktop: 14.64%; --w-desktop: 9.47%; --open-desktop: 27.1%;
+            --x-tablet: 33.54%; --y-tablet: 14.77%; --w-tablet: 9.13%; --open-tablet: 28%;
+            --x-mobile: 33.54%; --y-mobile: 14.55%; --w-mobile: 12.8%; --open-mobile: 42%;
+            --copy-x: -4%; --copy-y: 102%; --copy-width: 118%; --copy-align: center;
+          "
+        >
+          <img src="assets/project_thumbnails/ArcTek_Thumbnail.jpeg" alt="">
+          <span class="project-copy">
+            <span class="project-title">Welding Robotics</span>
+            <span class="project-desc">3D vision-integrated robotics system using seam detection to reduce robotic welding programming time.</span>
+            <span class="project-cta">View Project</span>
+          </span>
+        </a>
+
+        <a
+          class="project-card project-card--powertrain"
+          href="project_pages/FT.html"
+          aria-label="View Powertrain Lead project"
+          style="
+            --x-desktop: 65.23%; --y-desktop: 17.19%; --w-desktop: 12.22%; --open-desktop: 22.7%;
+            --x-tablet: 68%; --y-tablet: 17.31%; --w-tablet: 11.75%; --open-tablet: 19%;
+            --x-mobile: 68%; --y-mobile: 17.53%; --w-mobile: 12.8%; --open-mobile: 31%;
+            --copy-x: 104%; --copy-y: 25%; --copy-width: 76%; --copy-align: center;
+          "
+        >
+          <img src="assets/project_thumbnails/FT_Thumbnail_done.png" alt="">
+          <span class="project-copy">
+            <span class="project-title">Powertrain Lead</span>
+            <span class="project-desc">Led the Formula Trinity powertrain department, designing and building five subsystems in one year.</span>
+            <span class="project-cta">View Project</span>
+          </span>
+        </a>
+
+        <a
+          class="project-card project-card--fpga"
+          href="project_pages/FPGA.html"
+          aria-label="View FPGA project"
+          style="
+            --x-desktop: 81.52%; --y-desktop: 30.41%; --w-desktop: 6.42%; --open-desktop: 18.6%;
+            --x-tablet: 85.06%; --y-tablet: 30.45%; --w-tablet: 7.5%; --open-tablet: 21%;
+            --x-mobile: 85.06%; --y-mobile: 30.35%; --w-mobile: 9.33%; --open-mobile: 30%;
+            --copy-x: 2%; --copy-y: 102%; --copy-width: 98%; --copy-align: center;
+          "
+        >
+          <img src="assets/project_thumbnails/FPGA_Thumbnail.jpg" alt="">
+          <span class="project-copy">
+            <span class="project-title">FPGA</span>
+            <span class="project-desc">Sequence detector using a finite state machine and 24-bit LFSR.</span>
+            <span class="project-cta">View Project</span>
+          </span>
+        </a>
+
+        <a
+          class="project-card project-card--pcb"
+          href="project_pages/drones.html"
+          aria-label="View PCB Design project"
+          style="
+            --x-desktop: 20%; --y-desktop: 41.83%; --w-desktop: 6.8%; --open-desktop: 13.9%;
+            --x-tablet: 20.77%; --y-tablet: 41.75%; --w-tablet: 6%; --open-tablet: 14%;
+            --x-mobile: 20.77%; --y-mobile: 41.81%; --w-mobile: 8.53%; --open-mobile: 25%;
+            --copy-x: 10%; --copy-y: 102%; --copy-width: 92%; --copy-align: center;
+          "
+        >
+          <img src="assets/project_thumbnails/PCB_Thumbnail1.png" alt="">
+          <span class="project-copy">
+            <span class="project-title">PCB Design</span>
+            <span class="project-desc">Hardware development internship for logistics drones.</span>
+            <span class="project-cta">View Project</span>
+          </span>
+        </a>
+
+        <a
+          class="project-card project-card--about"
+          href="project_pages/about.html"
+          aria-label="View About Me page"
+          style="
+            --x-desktop: 52.15%; --y-desktop: 43.44%; --w-desktop: 13.67%; --open-desktop: 26.6%;
+            --x-tablet: 54.46%; --y-tablet: 43.38%; --w-tablet: 14.63%; --open-tablet: 29%;
+            --x-mobile: 54.46%; --y-mobile: 43.35%; --w-mobile: 14.4%; --open-mobile: 39%;
+            --copy-x: 0%; --copy-y: -26%; --copy-width: 114%; --copy-align: left;
+          "
+        >
+          <img src="assets/project_thumbnails/about_me.jpg" alt="">
+          <span class="project-copy">
+            <span class="project-title">About Me</span>
+            <span class="project-desc">Find out more about me and the engineering work behind this board.</span>
+            <span class="project-cta">View Page</span>
+          </span>
+        </a>
+
+        <a
+          class="project-card project-card--suite"
+          href="project_pages/suite.html"
+          aria-label="View Sobriety Suite project"
+          style="
+            --x-desktop: 35.54%; --y-desktop: 67.42%; --w-desktop: 8.56%; --open-desktop: 23%;
+            --x-tablet: 37.08%; --y-tablet: 67.21%; --w-tablet: 9.5%; --open-tablet: 27%;
+            --x-mobile: 37.08%; --y-mobile: 67.15%; --w-mobile: 12%; --open-mobile: 33%;
+            --copy-x: -88%; --copy-y: 36%; --copy-width: 72%; --copy-align: center;
+          "
+        >
+          <img src="assets/project_thumbnails/Suite_Thumbnail.jpeg" alt="">
+          <span class="project-copy">
+            <span class="project-title">'Sobriety Suite'</span>
+            <span class="project-desc">Embedded systems project for field sobriety tests.</span>
+            <span class="project-cta">View Project</span>
+          </span>
+        </a>
+
+        <a
+          class="project-card project-card--buggy"
+          href="project_pages/buggy.html"
+          aria-label="View Autonomous Buggy project"
+          style="
+            --x-desktop: 66.31%; --y-desktop: 63.27%; --w-desktop: 13.06%; --open-desktop: 25%;
+            --x-tablet: 69.08%; --y-tablet: 63.14%; --w-tablet: 15.5%; --open-tablet: 32%;
+            --x-mobile: 69.08%; --y-mobile: 63.01%; --w-mobile: 17.87%; --open-mobile: 40%;
+            --copy-x: 104%; --copy-y: 14%; --copy-width: 74%; --copy-align: center;
+          "
+        >
+          <img src="assets/project_thumbnails/Buggy_Thumbnail.png" alt="">
+          <span class="project-copy">
+            <span class="project-title">Autonomous Buggy</span>
+            <span class="project-desc">A buggy that completed three challenges, including PID control and sign recognition.</span>
+            <span class="project-cta">View Project</span>
+          </span>
+        </a>
+
+        <div class="contact-cluster" aria-label="Contact links">
+          <a
+            class="contact-link contact-link--linkedin"
+            href="https://www.linkedin.com/in/paula-br%C3%BCdrich-722410331/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Paula's LinkedIn profile (opens in a new tab)"
+            style="
+              --x-desktop: 51.38%; --y-desktop: 85.45%; --w-desktop: 4.97%;
+              --x-tablet: 53.69%; --y-tablet: 85.34%; --w-tablet: 5.13%;
+              --x-mobile: 53.69%; --y-mobile: 85.55%; --w-mobile: 5.33%;
+            "
+          >
+            <img src="assets/project_thumbnails/Linkedin_icon.png" alt="">
+          </a>
+          <a
+            class="contact-link contact-link--email"
+            href="mailto:paula.bruedrich@gmail.com"
+            aria-label="Email Paula at paula.bruedrich@gmail.com"
+            style="
+              --x-desktop: 57.69%; --y-desktop: 85.45%; --w-desktop: 6.19%;
+              --x-tablet: 60%; --y-tablet: 85.34%; --w-tablet: 6.25%;
+              --x-mobile: 60%; --y-mobile: 85.55%; --w-mobile: 6.67%;
+            "
+          >
+            <img src="assets/project_thumbnails/email_icon.png" alt="">
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
